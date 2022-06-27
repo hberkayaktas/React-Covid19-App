@@ -1,17 +1,22 @@
 .bg-death {
   background: linear-gradient(135deg, #ff6f56, #e73827) !important;
+ 
 }
 .bg-infected {
-  background: linear-gradient(135deg, #a8e063, #56ab2f);
+  background: linear-gradient(135deg, #a8e063, #56ab2f) !important;
+  
 }
 .bg-DarkBlue {
-  background: linear-gradient(135deg, #4b79a1, #283e51);
+  background: linear-gradient(135deg, #4b79a1, #283e51) !important;
+  
 }
 .bg-sunny {
-  background: linear-gradient(135deg, #ffb75e, #ed8f03);
+  background: linear-gradient(135deg, #ffb75e, #ed8f03) !important;
+  
 }
 .bg-lime {
-  background: linear-gradient(135deg, #00c9ff, #92fe9d);
+  background: linear-gradient(135deg, #00c9ff, #92fe9d) !important;
+  
 }
 
 .chart {
@@ -51,14 +56,22 @@
   background: linear-gradient(120deg, #22ff82, #21bdff, #5433ff);
   border-radius: 2rem;
   height: 100%;
-  opacity: 0.8;
+  opacity: 1;
   display: flex;
   justify-content: center;
-  color: black;
+  color: rgb(78, 78, 78);
   font-weight: bold;
+  position: relative;
 }
 .chart__item__inner > span {
   transform: rotate(-90deg);
   position: absolute;
-  margin-top: -35px;
+  bottom: 5px;
+  left: 46%;
+  height: 18px;
+  width: 300px;
+  transform-origin: left center;
+}
+.card {
+  height: 100%;
 }

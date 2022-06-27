@@ -4,7 +4,7 @@ function Navbar() {
   return (
       <nav className="navbar navbar-expand-sm navbar-light border-bottom shadow-sm">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#1">
+        <a className="navbar-brand" href="#!">
           Berkay info
         </a>
         <button
@@ -20,7 +20,7 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarID">
           <div className="navbar-nav">
-            <a className="nav-link active" aria-current="page" href="#1">
+            <a className="nav-link active" aria-current="page" href="#!">
               Anasayfa
             </a>
           </div>
