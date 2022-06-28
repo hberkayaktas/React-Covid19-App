@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="App.css">
+    <style>
+     
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light border-bottom shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Berkay info</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarID"
+          aria-controls="navbarID"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarID">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row justify-content-center mt-2" id="logo">
+        <div class="col-md-6 justify-content-center">
+          <div class="d-flex justify-content-center">
+            <img
+              src="https://world19covid.web.app/static/media/image.d7265326.png"
+              width="75%"
+            />
+          </div>
+          <p class="text-center m-0">
+            Global and Country Wise Cases of Corona Virus
+          </p>
+          <p class="text-center">
+            (For a Particular country, select a Country from below)
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row">
+          <div class="col">
+            <!-- card başlangıcı -->
+            <div class="card text-light bg-death">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-light">Card subtitle</h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                b5
+              </div>
+            </div>
+            <!-- card bitişi -->
+          </div>
+          <div class="col">
+            <!-- card başlangıcı -->
+            <div class="card text-light bg-infected">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-light">Card subtitle</h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                b5
+              </div>
+            </div>
+            <!-- card bitişi -->
+          </div>
+          <div class="col">
+            <!-- card başlangıcı -->
+            <div class="card text-light bg-DarkBlue">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-light">Card subtitle</h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                b5
+              </div>
+            </div>
+            <!-- card bitişi -->
+          </div>
+          <div class="col">
+            <!-- card başlangıcı -->
+            <div class="card text-light bg-sunny">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-light">Card subtitle</h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                b5
+              </div>
+            </div>
+            <!-- card bitişi -->
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col">
+          <div class="d-flex justify-content-center">
+            <select
+              class="form-select w-50"
+              aria-label="Default select example"
+            >
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="d-flex justify-content-center">
+            <div class="chart" style="width: 500px; height: 500px">
+              <ul class="chart__grid">
+                <script>
+                  let degerler = [99, 60, 25, 80, 1];
+                  degerler.map((deger) =>
+                    document.write(`
+                                    <li class="chart__item morph active" style="padding-top:${
+                                      100 - deger
+                                    }%"
+                                    ><div class="chart__item__inner bg-death"><span>3560</span></div></li>
+                                    `)
+                  );
+                </script>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top"
+    >
+      <p class="col-md-4 mb-0 text-muted">Berkay aktaş Tarafından 2022 yılında </p>
+
+      
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Anasayfa</a>
+        </li>
+        <li class="nav-item">
+          <a href="http://hamiberkayaktas.tk/index.php" class="nav-link px-2 text-muted">kişisel sitem</a>
+        </li>
+      
+      </ul>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

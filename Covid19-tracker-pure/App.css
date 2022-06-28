@@ -1,0 +1,64 @@
+.bg-death {
+      background: linear-gradient(135deg, #ff6f56, #e73827) !important;
+    }
+    .bg-infected {
+      background: linear-gradient(135deg, #a8e063, #56ab2f);
+    }
+    .bg-DarkBlue {
+      background: linear-gradient(135deg, #4b79a1, #283e51);
+    }
+    .bg-sunny {
+      background: linear-gradient(135deg, #ffb75e, #ed8f03);
+    }
+    .bg-lime {
+      background: linear-gradient(135deg, #00c9ff, #92fe9d);
+    }
+
+    .chart {
+      align-content: flex-end;
+      display: inline-flex;
+      justify-content: center;
+      margin-top: 40px;
+      min-width: 100px;
+      min-height: 100px;
+      color: black !important;
+    }
+
+    .chart__grid {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .chart__item {
+      width: 16%;
+      height: 100%;
+      border: 1px solid #fff;
+      border-radius: 2rem;
+      box-sizing: border-box;
+      overflow: hidden;
+      z-index: 1;
+      align-self: flex-end;
+      margin-right: 5px;
+    }
+
+    .chart__item__inner {
+      background: linear-gradient(120deg, #22ff82, #21bdff, #5433ff);
+      border-radius: 2rem;
+      height: 100%;
+      opacity: 0.8;
+      display: flex;
+      justify-content: center;
+      color: black;
+      font-weight: bold;
+    }
+    .chart__item__inner > span {
+      transform: rotate(-90deg);
+      position: absolute;
+      margin-top: -35px;
+    }
